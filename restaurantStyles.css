@@ -1,0 +1,34 @@
+/*common elements across the restaurant pages*/
+footer {
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+  a {
+                font-family: serif;
+                font-weight: none;
+                Margin-left: 25px;
+                margin-right: 25px;
+                }
+                a:link {
+                    color: blue;
+                }
+                a:hover {
+                    font-weight: bold;
+                }
+                a:active {
+                    color: red;
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: red;
+                }
+#title {
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+}

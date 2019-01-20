@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                background-color: #CEE1C1; /* peppermint by joyseline part of Ocean Sanctuary color scheme - colourlovers.com*/
+            }
+            input, label {
+                font-size: 16px;
+                font-weight: bold;
+            
+            }
+            input[type=text] {
+                width: 50%;
+                padding: 12px, 20px
+                margin: 8px 0;
+                box-sizing: border-box;
+                background-color: white;
+                font-weight: normal;
+            }
+            select {
+                
+                width: 20%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            input, submit {
+                background-color: #D2C5A5; /* birch paper by x_1013_x part of Ocean Sanctuary color palette- Colourlovers.com*/
+            }
+            textarea {
+                width: 33%;
+                box-sizing: border-box;
+                padding: 12px 20px;
+                margin: 8px 0
+                background-color: #D2C5A5 !important;
+                resize: none;
+                vertical-align: middle;
+            }
+
+        
+        </style>
+    </head>
+    <body>
+    <div id="title">
+        <h1>Eclectic Eats</h1>
+    </div>
+    <div id="navigation">
+        <hr />
+        <p><a href="restaurant.html" target=_blank>Home</a>   <a href="restaurantmenu.html" target=_blank>Menu</a>   <a href="restaurantcontactus.html" target=_blank>Contact Us</a></p>
+        <hr />
+    </div>
+        <br />
+    <div id="content"> 
+         <form action="submit.html" method="POST>
+                                            
+            <label for="name">Name:</label>    
+            <input type="text" id="name" name="name"><br />
+            <br />
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br />
+            <br />
+        
+            <label for="phone">Phone:</label>         
+            <input type="text" id="phone" name="phone"><br />
+            <br />
+        
+            <label for="inquiry">Reason for Inquiry:</label>
+                <select id="inquiry" name="inquiry">
+                <option value="default" selected>Catering</option>
+                <option value="privateparty">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+                </select>
+            <br />
+            <br />
+            <label for="moreinformation">Additional Information</label>
+            <textarea name="moreinformation"></textarea>
+            <br />
+            <br />
+            
+            <label for="beentorestaurant">Have you been to our restaurant?</label>
+            <input type="radio" name="answer" value="no" checked>No</input>
+            <input type="radio" name="answer" value="yes">Yes</input>
+            <br />
+            <br />
+            <label for="contactdays">Best days to contact you:</label>
+            <input type="checkbox" name="days" value="monday">M</input>
+            <input type="checkbox" name="days" value="tuesday">T</input>
+            <input type="checkbox" name="days" value="wednesday">W</input>
+            <input type="checkbox" name="days" value="thursday">Th</input>
+            <input type="checkbox" name="days" value="friday">F</input>
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Send Request">
+        </form>
+         </div>
+    <br />
+    <div id="footer">
+    <hr />
+        <footer>
+            <p>555 South Fifth Street, Louisville, Kentucky  40202</p>
+            <p>(502) 555-0000</p>
+        </footer>
+    </body>
+
+</html>
